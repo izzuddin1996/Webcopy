@@ -99,6 +99,16 @@
 </head>
 
 <body id="page-write_a_review" class="">
+  <div id="google_translate_element"></div>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script>
+    function googleTranslateElementInit(){
+      new google.translate.TranslateElement(
+        {pageLanguage: 'en'},
+        'google_translate_element'
+      );
+    }
+  </script>
   <div class="contain-page ">
       
               <section id="news-banner" data-name="NEWS_BANNER" data-detail='{ "cookie": true }'>
